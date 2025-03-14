@@ -17,6 +17,7 @@ body::before {
     background-image: url("../assets/img/Fundo.webp");
     background-repeat: no-repeat;
     background-position: right;
+    background-size: cover;
     content: "";
     display: block;
     position: absolute;
@@ -134,5 +135,16 @@ button:disabled {
  
     .container__informacoes {
         padding: 1rem
+    }
+
+    body::before {
+        background-position: center right;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body::before {
+        background-position: center;
+        background-size: contain;
     }
 }
