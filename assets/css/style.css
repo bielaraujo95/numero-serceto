@@ -141,10 +141,3 @@ button:disabled {
         background-position: center right;
     }
 }
-
-@media screen and (max-width: 768px) {
-    body::before {
-        background-position: center;
-        background-size: contain;
-    }
-}
