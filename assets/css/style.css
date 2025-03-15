@@ -14,7 +14,7 @@ body {
 }
  
 body::before {
-    background-image: url("../assets/img/Fundo.webp");
+    background-image: url("../img/Fundo.webp");
     background-repeat: no-repeat;
     background-position: right;
     background-size: cover;
